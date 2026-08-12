@@ -138,3 +138,69 @@ A disciplina adotará:
 
 
 * Exemplo prático de utilização em um projeto Web.
+
+---
+
+<br>
+<br>
+<br>
+
+# Como Funciona o Jogo da Velha (HTML, CSS e JS)
+
+Criar um jogo separando o código em três arquivos é a base do desenvolvimento web front-end moderno. Cada arquivo tem uma responsabilidade única, o que torna o projeto organizado e fácil de manter.
+
+Abaixo está a explicação detalhada de como cada parte do nosso Jogo da Velha funciona.
+
+---
+
+## 1. HTML: O Esqueleto (`index.html`)
+
+O HTML (HyperText Markup Language) é responsável por criar a estrutura da página. Ele diz ao navegador quais elementos devem existir na tela, mesmo que ainda não tenham estilo ou interatividade.
+
+* **O Tabuleiro:** Utilizamos uma `<div>` principal com a classe `board`. Dentro dela, criamos 9 `<div>` menores com a classe `cell`, que representam os espaços onde o "X" ou o "O" serão desenhados.
+* **Identificação (`data-index`):** Cada célula possui um atributo chamado `data-index` numerado de 0 a 8. Isso é crucial para que o JavaScript saiba exatamente qual quadrado foi clicado.
+* **O Placar e o Botão:** Adicionamos um texto para mostrar de quem é a vez (ou quem ganhou) e um botão para reiniciar a partida.
+---
+
+<br>
+
+## 2. CSS: A Aparência (`style.css`)
+
+O CSS (Cascading Style Sheets) veste o nosso esqueleto HTML. Ele é o responsável por transformar as `<div>` sem graça em um tabuleiro de jogo atraente.
+
+* **CSS Grid:** Para montar o tabuleiro 3x3 perfeito, utilizamos a propriedade `display: grid`. Com o comando `grid-template-columns: repeat(3, 100px);`, dizemos ao navegador para criar 3 colunas de 100 pixels cada. O espaço entre elas (`gap`) cria as linhas do tabuleiro.
+* **Cores e Fontes:** Definimos o vermelho para o "X" e o azul para o "O" usando classes específicas (`.cell.x` e `.cell.o`). Também aumentamos o tamanho da fonte para que as letras preencham bem os quadrados.
+* **Efeitos Visuais:** Adicionamos um efeito de transição (`transition`) e o pseudo-elemento `:hover` nas células e no botão. Isso faz com que a cor mude suavemente quando você passa o mouse por cima, dando uma sensação de interatividade.
+---
+
+<br>
+
+## ⚙️ 3. JavaScript: O Cérebro (`script.js`)
+
+O JavaScript traz o jogo à vida. Sem ele, a página seria apenas uma imagem estática que não responde aos seus cliques.
+
+### A memória do jogo (Variáveis)
+
+* **`board`**: Uma lista (array) com 9 espaços vazios que guarda o estado atual do tabuleiro.
+* **`currentPlayer`**: Guarda a informação de quem deve jogar agora (começa com "X").
+* **`winConditions`**: Uma lista com todas as combinações matemáticas de vitória (as linhas, colunas e diagonais, baseadas nos índices de 0 a 8).
+
+### As ações (Funções)
+
+* **Ouvindo os cliques:** Usamos `addEventListener` para "escutar" quando o jogador clica em uma célula.
+* **`cellClicked()` e `atualizarCelula()`:** Quando ocorre um clique, o script checa se a célula está vazia. Se estiver, ele escreve o "X" ou "O" no array do tabuleiro e também atualiza o HTML para mostrar a letra na tela.
+* **`checarVencedor()`:** Após cada jogada, o script percorre as `winConditions` para ver se o jogador atual completou uma linha. Se sim, ele declara o vencedor. Se não houver vencedor e não houver mais espaços vazios, ele declara empate ("Deu Velha!").
+* **`reiniciarJogo()`:** Limpa a lista `board`, remove as letras das células do HTML e devolve a vez para o "X", deixando tudo pronto para uma nova partida.
+
+---
+
+## Como os arquivos se comunicam
+
+Para que essa engrenagem funcione perfeitamente, o arquivo `index.html`:
+
+1. Puxa o visual na seção `<head>` com a tag:
+`<link rel="stylesheet" href="style.css">`
+2. Carrega a lógica no final do `<body>` com a tag:
+`<script src="script.js"></script>`
+
+Essa separação permite que seja possível alterar o design (CSS) sem correr o risco de quebrar as regras do jogo (JS).
