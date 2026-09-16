@@ -8,6 +8,8 @@
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 
 Professor que está ensinando a matéria de Front-end na instituição. Frameworks, versionamento, básicos do Git, etc. São alguns assuntos abordados até agora.
+
+Email: deivison.takatu@edu.senai.br
 ***
 
 <br>
@@ -32,3 +34,6 @@ Primeiro projeto Angular + utilização de API para deploy de climatempo
 
 6- [Projeto Next.js](https://github.com/Felipe-Pinheiro-Lopes/projeto-next) <br>
 Trabalho feito em grupo para a apresentação de um site funcional em Next.js
+
+7- [Projeto APIs](https://github.com/Atividades-SENAI/Projeto_APIs) <br>
+Atividade de coleção de repositórios que utilizam APIs diversas e introdução ao Render
