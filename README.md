@@ -17,23 +17,33 @@ Email: deivison.takatu@edu.senai.br
 
 # Repositórios
 
-1- [Projeto Vanilla](https://github.com/Atividades-SENAI/Projeto_vanilla) <br>
+**1- [Projeto Vanilla](https://github.com/Atividades-SENAI/Projeto_vanilla)** <br>
 Apresentação da disciplina e primeiras atividades da matéria
+***
 
-2- [1º Projeto React](https://github.com/Atividades-SENAI/1-Projeto_react) <br>
+**2- [1º Projeto React](https://github.com/Atividades-SENAI/1-Projeto_react)** <br>
 Versionamento e configuração do Node e React
+***
 
-3- [React project](https://github.com/biancaciriloads/projeto-react-01) <br>
+**3- [React project](https://github.com/biancaciriloads/projeto-react-01)** <br>
 Trabalho feito em grupo na criação de um quiz de biomedicina
+***
 
-4- [Vue Project](https://github.com/RickRazz0/projeto-vue) <br>
+**4- [Vue Project](https://github.com/RickRazz0/projeto-vue)** <br>
 Trabalho feito em grupo em um projeto Vue
+***
 
-5- [Meu app Angular](https://github.com/Atividades-SENAI/meu-app-angular) <br>
+**5- [Meu app Angular](https://github.com/Atividades-SENAI/meu-app-angular)** <br>
 Primeiro projeto Angular + utilização de API para deploy de climatempo
+***
 
-6- [Projeto Next.js](https://github.com/Felipe-Pinheiro-Lopes/projeto-next) <br>
+**6- [Projeto Next.js](https://github.com/Felipe-Pinheiro-Lopes/projeto-next)** <br>
 Trabalho feito em grupo para a apresentação de um site funcional em Next.js
+***
 
-7- [Projeto APIs](https://github.com/Atividades-SENAI/Projeto_APIs) <br>
+**7- [APIs no front-end](https://projeto-apis-1.onrender.com/)** <br>
 Atividade de coleção de repositórios que utilizam APIs diversas e introdução ao Render
+***
+
+**8- [CSS Frontend](https://github.com/Atividades-SENAI/CSS-frontend)** <br>
+Treinando CSS e Tailwind com box models e flexbox 
