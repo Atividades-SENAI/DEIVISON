@@ -1,4 +1,4 @@
-# Resumo - Aula 02: Frameworks Front-end
+# Resumo - Aula 03: Frameworks Front-end
 
 **Disciplina:** Frameworks Front-end
 
