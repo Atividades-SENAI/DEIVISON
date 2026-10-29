@@ -45,9 +45,11 @@ Email: deivison.takatu@edu.senai.br
 * **Tecnologias Envolvidas:** HTML5, CSS3 Nativo, Flexbox, Tailwind CSS, PostCSS, Vite, VS Code (Tailwind IntelliSense).
 * **Tópicos Abordados:** Evolução do estilo web (In-line, Interno e Externo); domínio do *Box Model* (Content, Padding, Border, Margin); layouts unidimensionais com Flexbox (eixos, alinhamentos e responsividade); design responsivo com a tag `viewport`; introdução aos frameworks CSS; arquitetura *Utility-First* do Tailwind CSS; otimização do tempo de desenvolvimento, padronização visual e integração de classes utilitárias via CDN e Tailwind CLI.
 
-## 🔹 Aula 08 - Projeto React & Fundamentos JS
+## 🔹 Aula 08 e 09 - Projeto React & Fundamentos JS
 * **Tecnologias Envolvidas:** JavaScript Moderno (ES6+), React, Virtual DOM, JSX, Babel.
 * **Tópicos Abordados:** Revisão profunda de JS (escopos `var`/`let`/`const`, operadores, estruturas condicionais/repetição, arrow functions e manipulação avançada de Arrays e Objetos); manipulação nativa do DOM vs. modelo declarativo; sintaxe JSX e expressões JavaScript `{}`; criação, composição e reutilização de Componentes; fluxo unidirecional de dados com *Props*; funcionamento interno do *Virtual DOM* e ciclo de *Reconciliação*; renderização de listas dinâmicas com métodos `map()`/`filter()` e importância das `keys` únicas; estratégias de renderização condicional na interface.
+
+
 
 ---
 
@@ -97,3 +99,7 @@ Atividade de coleção de repositórios que utilizam APIs diversas e introduçã
 
 ### **8- [CSS Frontend](https://github.com/Atividades-SENAI/CSS-frontend)** <br>
 Treinando CSS e Tailwind com box models e flexbox 
+***
+
+### 9- **[App-React](https://github.com/Nickddb/App_React)** <br>
+Aplicação que une diferentes conceitos de Javascript e React
