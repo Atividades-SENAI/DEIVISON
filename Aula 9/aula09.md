@@ -1,19 +1,9 @@
-# Resumo da Aula: Projeto React 02
+# Resumo - Aula 09: Projeto React e Revisão de JavaScript
+**Disciplina:** Frameworks Front-end
 
-**Disciplina:** Frameworks Front-end  
-**Professor:** Me. Deivison S. Takatu  
-**Instituição:** SENAI  
+**Professor:** Prof. Me. Deivison S. Takatu (`deivison.takatu@edu.senai.br`)
 
----
-
-## 📌 Sumário dos Tópicos
-1. **State e `useState`**
-2. **Formulários**
-3. **`useEffect`**
-4. **Consumo de APIs**
-5. **React Router**
-6. **Atividade Prática**
-
+**Instituição:** SENAI
 ---
 
 ## 1. State e `useState`
@@ -146,7 +136,13 @@ Desenvolver uma aplicação React completa que integre obrigatoriamente:
 * Consumo de APIs externas
 * Roteamento de páginas com React Router
 
-**Entrega:** Repositório público no GitHub contendo um arquivo `README.md` explicativo das funcionalidades e dos conceitos implementados.
+**Entrega:** 
+1. Criar um repositório público no **GitHub**.
+    https://github.com/Nickddb/App_React
+  2. Incluir um arquivo **`README.md`** detalhando:
+     * Descrição da aplicação.
+     * Lista de funcionalidades implementadas.
+     * Explicação técnica dos conceitos de React utilizados.
 
 ---
 

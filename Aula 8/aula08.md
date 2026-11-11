@@ -198,7 +198,13 @@ Desenvolver uma aplicação React completa aplicando de forma integrada os conce
 * **Conceitos Obrigatórios:** JSX, criação de Componentes, passagem de Props, manipulação de Listas com a propriedade `key` e Renderização Condicional.
 * **Entrega:**
   1. Criar um repositório público no **GitHub**.
+    https://github.com/Nickddb/App_React
   2. Incluir um arquivo **`README.md`** detalhando:
      * Descrição da aplicação.
      * Lista de funcionalidades implementadas.
      * Explicação técnica dos conceitos de React utilizados.
+
+## 🔗 Links e Recursos Adicionais
+* **Conceitos:** [github.com/deivisontakatu/aula-react](https://github.com/deivisontakatu/aula-react)
+* **Exemplo em Código:** [github.com/deivisontakatu/projeto-react](https://github.com/deivisontakatu/projeto-react)
+* **Aplicação em Produção:** [projeto-react-five-swart.vercel.app](https://projeto-react-five-swart.vercel.app/)
