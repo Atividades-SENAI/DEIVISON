@@ -190,13 +190,15 @@
 * Clonar e analisar os repositórios, identificando o framework front-end utilizado e as APIs externas consumidas.
 * Criar um arquivo **Markdown** contendo uma tabela detalhando o nome dos projetos, frameworks, APIs e links.
 
+  ### [Tabela](https://github.com/Atividades-SENAI/Projeto_APIs/blob/main/Atividade01.md)
+
 ### Atividade 02:
 1. **API e Front-end:**
    * Criar uma API REST em Node.js com Express contendo uma rota que retorne data e hora atuais.
    * Realizar o deploy da API no **Render**.
    * Desenvolver uma aplicação Front-end que consuma essa API e exiba os dados na tela.
 
-   ### [APIs no front-end](https://projeto-apis-1.onrender.com/)
+   ### [APIs no front-end](https://github.com/Atividades-SENAI/Projeto_APIs)
 
 <br>
 

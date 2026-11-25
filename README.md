@@ -93,7 +93,7 @@ Primeiro projeto Angular + utilização de API para deploy de climatempo
 Trabalho feito em grupo para a apresentação de um site funcional em Next.js
 ***
 
-### **7- [APIs no front-end](https://projeto-apis-1.onrender.com/)** <br>
+### **7- [APIs no front-end](https://github.com/Atividades-SENAI/Projeto_APIs)** <br>
 Atividade de coleção de repositórios que utilizam APIs diversas e introdução ao Render
 ***
 
